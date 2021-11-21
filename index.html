@@ -13,12 +13,26 @@
 </head>
 <body>
      
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-   <div class="container">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#landing">Home </a>  
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallery">Gallery</a> 
+        </li> 
+  </div>
+</nav>
+
+   <div class="container-fluid">
    	  
-   		<section id="landing">
-   			
+   		<section id="landing" class="jumbotron text-center mt -3">
 
    		 <h1>Celmar Dumagsa</h1>
 
@@ -26,11 +40,11 @@
 
    		 <p>Hello, I'm Celmar and I love to create things from scratch.</p>
 
-   		 <img src="./images/maxPayne.jpg">
+   		 <img src="./images/maxPayne.jpg" class="img fluid">
 
    		</section>
 
-   		<section id="gallery">
+   		<section id="landing">
         <div class="tools">
           <h2>Languages I Speak</h2>
           <ul>
@@ -38,7 +52,7 @@
             <li>CSS</li>
           </ul>
         </div>
-        <div class="tools">
+        <div class="gallery">
           <h2>Tools I Use</h2>
           <ul>
             <li>Git Bash (Terminal)</li>
