@@ -24,3 +24,10 @@ h2 {
 
 	font-family: 'Robot', sans-serif;
 }
+
+img {
+
+	width: 150px; 
+
+	border-radius: 50%;
+}
