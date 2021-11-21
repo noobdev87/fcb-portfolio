@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&family=Yesteryear&display=swap');
 
-/*
-
-
-
-
-*/
 
 h1 {
 
@@ -17,6 +11,8 @@ h1 {
 h2 {
 
 	font-family: 'Monserrat', sans-serif; 
+
+	color: #007bff; 
 }
 
 
@@ -31,3 +27,46 @@ img {
 
 	border-radius: 50%;
 }
+
+
+ul {
+
+   list-style: none;
+
+   padding: 0;
+}
+
+
+#landing, 
+
+#gallery {
+
+	height: 80vh;
+
+	display: flex;
+
+	align-items: center;
+
+	flex-direction: column;
+
+	justify-content: center;
+
+	border-radius: 5px;
+
+}
+
+.tools {
+
+	padding: 25px;
+
+	height: 200px;
+
+	border: 5px solid #f2f2f2;
+
+	margin: 25px;
+
+	width: 75%;
+}
+
+
+
