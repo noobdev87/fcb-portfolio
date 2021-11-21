@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&family=Yesteryear&display=swap');
+
+/*
+
+
+
+
+*/
+
+h1 {
+
+	font-family: 'Yesteryear', cursive;
+
+	font-size: 72px;
+}
+
+h2 {
+
+	font-family: 'Monserrat', sans-serif; 
+}
+
+
+* {
+
+	font-family: 'Robot', sans-serif;
+}
